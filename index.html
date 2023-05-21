@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Day In My Life - Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">A Day In My Life</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Notes">Notes</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/Lakeside_2019_Teal_NoDeer_UHD2.png" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>A Day In My Life</h5>
+                    <p>Begins with the vibrant colors of the sunrise illuminating my room. I embrace the early morning calmness as I prepare for the adventures that await me.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/Lakeside_2019_NoDeer_Evening_UHD2.png" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>A Day In My Life</h5>
+                    <p>As the day progresses, I immerse myself in various activities. Whether it's working on challenging assignments, participating in extracurricular activities, or exploring new hobbies.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/lakeside_2019_midnight.png" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>A Day In My Life</h5>
+                    <p>As midnight approaches, my day as a student draws to a close. However, the night is not only a time for rest but also for contemplation and personal growth. </p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Clock and Greetings Overlay -->
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 id="greeting"></h2>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <div id="clock" class="clock">loading ...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div id="Notes" class="container-fluid custom-container mt-4">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/564x/46/56/e4/4656e4344524316ca7b4b5612ce4c16d.jpg" alt="Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">22 May - 2023</h5>
+                        <p class="card-text">Celebrate my girl-friend's birthday but give nothing to her 🥳❌🎁</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/564x/94/54/9d/94549d015356c803647604905264afc5.jpg" alt="Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">23 May - 2023</h5>
+                        <p class="card-text">Driving with friends until the joyness through the sound barrier</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/564x/77/28/0f/77280faa5c97403d550cd82e19d4b9a3.jpg" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">24 May - 2023</h5>
+                        <p class="card-text">Enchanting movie night with "HER", such a must for quality time</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/564x/e6/c0/5a/e6c05abc71cda6e6c30f9f0000e7cef3.jpg" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">25 May - 2023</h5>
+                        <p class="card-text">Embarking on a captivating journey through the mesmerizing halls of an art museum.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="footer mt-5">
+        &copy; 2023 A Day In My Life. All rights reserved. By: M Ayash
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
